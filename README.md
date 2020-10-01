@@ -33,7 +33,7 @@ python ./manage.py runserver
 * Enjoy the site at 127.0.0.1:8000 or your corresponding localhost
 
 ---
-###Dummy data
+### Dummy data
 The amount of dummy data can be changed via parameter in `temperature/management/commands/setup_test_data.py`, specifically:
 ```
 ...
@@ -43,7 +43,7 @@ NUM_TEMPERATURES = 50
 
 
 
-###Api endpoints
+### Api endpoints
 ```
 
 ```
