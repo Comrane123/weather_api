@@ -41,9 +41,8 @@ NUM_TEMPERATURES = 50
 ...
 ```
 
-
-
 ### Api endpoints
+YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]
 ```
 
 ```
