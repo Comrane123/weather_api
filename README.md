@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 pip install -r requirements.txt
 ```
-* Create Postgresql db corresponding to settings.py
+* Choose (uncomment) Postgresql or MongoDB database with settings corresponding to settings.py
 
 * Create dummy data via command:
 
@@ -37,12 +37,12 @@ python ./manage.py runserver
 The amount of dummy data can be changed via parameter in `temperature/management/commands/setup_test_data.py`, specifically:
 ```
 ...
-NUM_TEMPERATURES = 50
+NUM_TEMPERATURES = []
 ...
 ```
 
 ### Api endpoints
-YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]
+To get data from-to date use the following endpoint with dates in `YYYY-MM-DD HH:MM` format:
 ```
-
+http://127.0.0.1:8000/api/?start_time=[]&end_time=[]
 ```

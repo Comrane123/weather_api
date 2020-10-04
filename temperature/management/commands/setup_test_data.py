@@ -4,7 +4,7 @@ from django.core.management.base import BaseCommand
 from temperature.models import Temperature
 from temperature.factories import TemperatureFactory
 
-NUM_TEMPERATURES = 50
+NUM_TEMPERATURES = 100
 
 
 class Command(BaseCommand):
