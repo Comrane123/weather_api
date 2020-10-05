@@ -42,6 +42,10 @@ NUM_TEMPERATURES = []
 ```
 
 ### Api endpoints
+To get all available data use the following endpoint:
+```
+http://127.0.0.1:8000/api/
+```
 To get data from-to date use the following endpoint with dates in `YYYY-MM-DD HH:MM` format:
 ```
 http://127.0.0.1:8000/api/?start_time=[]&end_time=[]
